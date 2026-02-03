@@ -3,7 +3,7 @@ import AddOrderForm from "./components/AddOrderForm";
 import OrderList from "./components/OrderList";
 import FilterAssign from "./components/FilterAssign";
 
-const API_URL = "http://localhost:9966";
+const API_URL = "https://food-delivery-backend-udoj.onrender.com";
 
 function App() {
   const [orders, setOrders] = useState([]);
